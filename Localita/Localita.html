@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Localita'</title>
+</head>
+<body>
+<form name="f1" action="Localita.php" method="GET">
+    <h1>Vestito</h1>
+    Cognome: &nbsp;<input type="text" name="cognome" value=""> <br>
+    Nome:&nbsp; <input type="text" name="nome" value=""> <br>
+    Email: &nbsp; <input type="email" name="email" value=""><br>
+    Password:&nbsp; <input type="password" name="password" value=""> <br>
+
+    Localita':&nbsp;
+    <select name = "tipo">
+        <option>Mare</option>
+        <option>Montagna</option>
+        <option>Citta'</option>
+    </select> <br>
+    Popolazione: &nbsp;
+    <input type="radio" name="pop" value="affollata" >Affollata
+    <input type="radio" name="pop" value="disabitata">Disabitata
+    <input type="radio" name="pop" value="media">Media Densita'<br>
+    Attivita':
+    <input type="checkbox" name="attivita[]" value = "corsa">Corsa&nbsp;
+    <input type="checkbox" name="attivita[]" value = "yoga">Yoga&nbsp;
+    <input type="checkbox" name="attivita[]" value = "camminata">Camminata&nbsp;
+    <input type="checkbox" name="attivita[]" value = "prenderesole">Prendere Sole&nbsp;<br>
+    Immagine: &nbsp; <input type="file" name="nomeFile"> <br>
+    <input type="submit" name="bInvia" value="invia">
+</form>
+
+</body>
+</html>
